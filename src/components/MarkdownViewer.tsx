@@ -25,7 +25,12 @@ export function MarkdownViewer({ path }: MarkdownViewerProps) {
             return match ? match[1] : md;
         };
 
-        fetch(path)
+        // Prepend the Vite base URL so it fetches correctly on subpaths (like GitHub Pages)
+        // @ts-ignore
+        const baseUrl = import.meta.env.BASE_URL;
+        const fetchPath = path.startsWith('/') ? `${baseUrl}${path.slice(1)}` : `${baseUrl}${path}`;
+
+        fetch(fetchPath)
             .then((res) => {
                 if (!res.ok) throw new Error(`Failed to load: ${res.statusText}`);
                 return res.text();
