@@ -1,0 +1,160 @@
+{
+  "Agents": [
+    {
+      "path": "/docs/agents/index.md",
+      "title": "Agent Design",
+      "parent": "Agents",
+      "nav_order": 1
+    },
+    {
+      "path": "/docs/agents/sub_agents.md",
+      "title": "Sub-Agents",
+      "parent": "Agents",
+      "nav_order": 2
+    }
+  ],
+  "Architecture": [
+    {
+      "path": "/docs/architecture/index.md",
+      "title": "Architecture Overview & System Design",
+      "parent": "Architecture",
+      "nav_order": 1
+    },
+    {
+      "path": "/docs/architecture/data_flow.md",
+      "title": "Data Flow",
+      "parent": "Architecture",
+      "nav_order": 2
+    },
+    {
+      "path": "/docs/architecture/components.md",
+      "title": "Core Components",
+      "parent": "Architecture",
+      "nav_order": 3
+    }
+  ],
+  "Docs": [
+    {
+      "path": "/docs/index.md",
+      "title": "Introduction",
+      "parent": "Docs",
+      "nav_order": 1
+    },
+    {
+      "path": "/docs/getting_started.md",
+      "title": "Getting Started",
+      "parent": "Docs",
+      "nav_order": 2
+    },
+    {
+      "path": "/docs/security/index.md",
+      "title": "Security Model",
+      "parent": "Docs",
+      "nav_order": 3
+    },
+    {
+      "path": "/docs/testing/index.md",
+      "title": "Testing & Error Handling",
+      "parent": "Docs",
+      "nav_order": 50
+    },
+    {
+      "path": "/docs/appendix/index.md",
+      "title": "Appendix",
+      "parent": "Docs",
+      "nav_order": 98
+    },
+    {
+      "path": "/docs/roadmap.md",
+      "title": "Roadmap",
+      "parent": "Docs",
+      "nav_order": 99
+    },
+    {
+      "path": "/docs/faq.md",
+      "title": "FAQ",
+      "parent": "Docs",
+      "nav_order": 100
+    },
+    {
+      "path": "/docs/glossary.md",
+      "title": "Glossary",
+      "parent": "Docs",
+      "nav_order": 101
+    }
+  ],
+  "Guides": [
+    {
+      "path": "/docs/guides/index.md",
+      "title": "Deployment & Installation Guide",
+      "parent": "Guides",
+      "nav_order": 1
+    },
+    {
+      "path": "/docs/guides/installation.md",
+      "title": "Installation Guide",
+      "parent": "Guides",
+      "nav_order": 1.5
+    },
+    {
+      "path": "/docs/guides/configuration.md",
+      "title": "Configuration Guide",
+      "parent": "Guides",
+      "nav_order": 2
+    },
+    {
+      "path": "/docs/guides/developer.md",
+      "title": "Developer Guide",
+      "parent": "Guides",
+      "nav_order": 3
+    }
+  ],
+  "Operations": [
+    {
+      "path": "/docs/operations/index.md",
+      "title": "Operations & Troubleshooting",
+      "parent": "Operations",
+      "nav_order": 1
+    },
+    {
+      "path": "/docs/operations/logging.md",
+      "title": "Logging & Monitoring",
+      "parent": "Operations",
+      "nav_order": 1.5
+    },
+    {
+      "path": "/docs/operations/performance.md",
+      "title": "Performance & Scaling",
+      "parent": "Operations",
+      "nav_order": 2
+    },
+    {
+      "path": "/docs/operations/limitations.md",
+      "title": "Limitations",
+      "parent": "Operations",
+      "nav_order": 3
+    }
+  ],
+  "Reference": [
+    {
+      "path": "/docs/reference/index.md",
+      "title": "API Reference & Query Examples",
+      "parent": "Reference",
+      "nav_order": 1
+    }
+  ],
+  "Tools": [
+    {
+      "path": "/docs/tools/index.md",
+      "title": "MCP Integration & Tools",
+      "parent": "Tools",
+      "nav_order": 1
+    },
+    {
+      "path": "/docs/tools/specifications.md",
+      "title": "Tool Specifications",
+      "parent": "Tools",
+      "nav_order": 2
+    }
+  ]
+}
