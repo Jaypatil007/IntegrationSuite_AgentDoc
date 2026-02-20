@@ -8,7 +8,7 @@ Here are the step-by-step instructions to push this to GitHub and deploy it via 
 
 ## Prerequisites
 
-Make sure you have an empty repository created on GitHub (e.g., `adtya-dash-docs`).
+Make sure you have an empty repository created on GitHub (e.g., `IntegrationSuite_AgentDoc`).
 
 ## Step 1: Initialize Git and Push to GitHub
 
@@ -25,17 +25,17 @@ git add .
 git commit -m "Initial commit: Added React documentation site"
 
 # 4. Link your local repository to the GitHub repository you created
-git remote add origin https://github.com/<YOUR_USERNAME>/<YOUR_REPO_NAME>.git
+git remote add origin https://github.com/<YOUR_USERNAME>/IntegrationSuite_AgentDoc.git
 
 # 5. Push the code to the main branch
 git push -u origin main
 ```
 
-*(Note: Replace `<YOUR_USERNAME>` and `<YOUR_REPO_NAME>` with your actual GitHub details).*
+*(Note: Replace `<YOUR_USERNAME>` with your actual GitHub details).*
 
 ## Step 2: Configure Vite for GitHub Pages (Important!)
 
-If your repository name is something other than `username.github.io` (for example, repository name is `adtya-dash-docs`), GitHub Pages will serve your site at a subpath: `https://username.github.io/adtya-dash-docs/`.
+If your repository name is something other than `username.github.io` (for example, repository name is `IntegrationSuite_AgentDoc`), GitHub Pages will serve your site at a subpath: `https://username.github.io/IntegrationSuite_AgentDoc/`.
 
 To make sure Vite loads assets correctly from this subpath, you need to update `vite.config.ts`.
 
@@ -48,7 +48,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   // ADD THIS LINE:
-  base: '/<YOUR_REPO_NAME>/', 
+  base: '/IntegrationSuite_AgentDoc/', 
   plugins: [react(), tailwindcss()],
 })
 ```
